@@ -6,7 +6,6 @@ gnumpy==0.2
 gunicorn==19.4.5
 itsdangerous==0.24
 latexmk.py==0.4
-matplotlib==1.4.2
 md2latex==0.0.2
 mistune==0.2.0
 numpy==1.8.2
