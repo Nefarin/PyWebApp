@@ -1,0 +1,27 @@
+<div>
+
+<form action="/diagnosis" method="post" class="form-inline text-center" role="form">
+    <div class="form-group">
+      <label>Describe symptoms:</label>
+      <input type="text" class="form-control" id="phrase" name="phrase" value="headache">
+      <div class="radio">
+        <li class="list-group-item" style="border:0px"><label><input type="radio" name="sex" value="male"checked="checked">Male</label></li>
+        <li class="list-group-item" style="border:0px"><label><input type="radio" name="sex" value="female">Female</label></li>
+      </div>
+      <label>Age:</label><input type="number" name="age" min="0" max="120" value="30">
+      <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+<h4 class="text-center"> Or try answer some simple questions..</h4>
+
+<div class="text-center">
+<button class="btn btn-primary" data-toggle="collapse" data-target="#questions">Show me</button>
+</div>
+
+<div id="questions" class="collapse text-center">
+    <p class="text-center text-primary"> Something will appear there in future. </p>
+</div>
+
+
+</div>
