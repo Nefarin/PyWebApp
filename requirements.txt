@@ -18,7 +18,7 @@ requests==2.5.3
 scipy==0.16.0
 simplejson==3.6.5
 six==1.8.0
-infermedica-api==0.02
+infermedica-api==0.0.2
 SQLAlchemy==1.0.12
 Flask-Session==0.2.3
 Flask-SQLAlchemy==2.1
